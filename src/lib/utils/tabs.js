@@ -8,8 +8,8 @@ export const tabs = [
     },
     {
         icon: 'history_edu',
-        label: 'Consitution',
-        dest: '/consitution',
+        label: 'Constitution',
+        dest: '/constitution',
     },
     {
         icon: 'swap_horiz',
