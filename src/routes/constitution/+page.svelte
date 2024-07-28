@@ -95,6 +95,8 @@
     }
 </style>
 
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRwxAlRjpgx5zTi4LsTQnNCMjwuJQg_AvEE45Y1d-iUIazg3tzAStaxWwrpu29gtmCuG5jY586GR8jp/pub?embedded=true"></iframe>
+
 <div class="constitution">
     <h1 class="noUnderscore">Eagan FFB Consitution</h1>
     
