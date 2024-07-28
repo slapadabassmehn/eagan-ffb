@@ -381,3 +381,4 @@
 </ul>
 <h1 id="points">Points</h1>
 <p>Refer to the Sleeper app for how games are scored, duh.</p>
+<div>
