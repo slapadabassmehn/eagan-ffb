@@ -10,13 +10,101 @@ export const homepageText = `
 <h2>Current Standings</h2>
 <p>1 || Tim || 300 pts</p>
 <p>2 || Matt || 200 pts</p>
-<p>Player	VP	W	L	Total
-Tim	43	11	3	1796.65
-EVB	43	11	3	1727.42
-Vollmuth	43	11	3	1715.73
-Charlie	38	9	5	1665.39
-Tyler	35	9	5	1616.87
-Smithers	32	7	7	1705.17 </p>
+<html>
+<head>
+<title>Table Example</title>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>VPs</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Player 1</td>
+    <td>100</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Player 2</td>
+    <td>80</td>
+    <td>4500</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Player 3</td>
+    <td>70</td>
+    <td>4000</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Player 4</td>
+    <td>60</td>
+    <td>3500</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Player 5</td>
+    <td>50</td>
+    <td>3000</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Player 6</td>
+    <td>40</td>
+    <td>2500</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Player 7</td>
+    <td>30</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Player 8</td>
+    <td>20</td>
+    <td>1500</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Player 9</td>
+    <td>10</td>
+    <td>1000</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Player 10</td>
+    <td>5</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Player 11</td>
+    <td>3</td>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Player 12</td>
+    <td>2</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Player 13</td>
+    <td>1</td>
+    <td>100</td>
+  </tr>
+</table>
+
+</body>
+</html>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?gid=1617021096&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 `;
