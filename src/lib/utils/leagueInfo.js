@@ -7,9 +7,16 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-<h1>Current Standings</h1>
+<h2>Current Standings</h2>
 <p>1 || Tim || 300 pts</p>
 <p>2 || Matt || 200 pts</p>
+<p>Player	VP	W	L	Total
+Tim	43	11	3	1796.65
+EVB	43	11	3	1727.42
+Vollmuth	43	11	3	1715.73
+Charlie	38	9	5	1665.39
+Tyler	35	9	5	1616.87
+Smithers	32	7	7	1705.17 </p>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?gid=1617021096&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 `;
