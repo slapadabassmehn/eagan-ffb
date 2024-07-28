@@ -95,8 +95,8 @@
     }
 </style>
 
-<div class="constitution">
-    <p>1-800 Empire League<br>Est. 2019 - a roll up of the FFB league est. 2008 </p>
+
+<p>1-800 Empire League<br>Est. 2019 - a roll up of the FFB league est. 2008 </p>
 <h1 id="contents">Contents</h1>
 <table>
 <thead>
@@ -381,4 +381,4 @@
 </ul>
 <h1 id="points">Points</h1>
 <p>Refer to the Sleeper app for how games are scored, duh.</p>
-<div>
+
