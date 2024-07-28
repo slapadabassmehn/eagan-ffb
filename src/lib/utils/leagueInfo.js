@@ -7,6 +7,9 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
+<h1>Current Standings</h1>
+<p>1 || Tim || 300 pts</p>
+<p>2 || Matt || 200 pts</p>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?gid=1617021096&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 `;
