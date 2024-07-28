@@ -12,7 +12,13 @@ export const homepageText = `
 <p>2 || Matt || 200 pts</p>
 <html>
 <head>
-<title>Table Example</title>
+<title>Table with Visible Lines</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </head>
 <body>
 
