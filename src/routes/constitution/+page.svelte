@@ -95,7 +95,7 @@
     }
 </style>
 
-<iframe src="https://docs.google.com/gview?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" />
+<iframe src="https://docs.google.com/gview?url=https://drive.google.com/file/d/1lylnsoLnL9iqk5HD3snH5V467_OwjpBh&embedded=true" />
 
 <div style={{display: "flex", justifyContent: "center"}}>
     <iframe 
