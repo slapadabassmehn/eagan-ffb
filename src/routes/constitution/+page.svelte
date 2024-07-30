@@ -95,8 +95,7 @@
     }
 </style>
 
-<iframe src="https://docs.google.com/gview?url=https://drive.google.com/file/d/1lylnsoLnL9iqk5HD3snH5V467_OwjpBh&embedded=true" />
-
+<a href="https://drive.google.com/file/d/1lylnsoLnL9iqk5HD3snH5V467_OwjpBh/view?usp=sharing">View PDF</a>
 <div style={{display: "flex", justifyContent: "center"}}>
     <iframe 
         width=100% 
