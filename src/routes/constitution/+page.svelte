@@ -95,6 +95,8 @@
     }
 </style>
 
+
+<a href="static/EmpireRulez.pdf" download="newfilename">Download the pdf</a>
 <div style={{display: "flex", justifyContent: "center"}}>
     <iframe 
         width=100% 
