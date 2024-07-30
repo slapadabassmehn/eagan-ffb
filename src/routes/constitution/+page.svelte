@@ -1,5 +1,6 @@
 <script>
-    import { dues } from '$lib/utils/helper';
+    import { dues } from '$lib/utils/helper',
+    import pdfUrl from './static/EmpireRulez.pdf?url';
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
@@ -94,9 +95,9 @@
         color: #777;
     }
 </style>
+<iframe src={pdfUrl} width="500" height="1000" title="PDF"/>
+<iframe src="https://docs.google.com/gview?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" />
 
-
-<a href="./static/EmpireRulez.pdf" download="newfilename">Download the pdf</a>
 <div style={{display: "flex", justifyContent: "center"}}>
     <iframe 
         width=100% 
