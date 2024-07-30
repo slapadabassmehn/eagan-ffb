@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    import pdfUrl from './static/EmpireRulez.pdf?url';
+    import pdfUrl from './static/EmpireRulez.pdf';
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
