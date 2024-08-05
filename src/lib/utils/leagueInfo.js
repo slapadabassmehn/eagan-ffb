@@ -7,110 +7,106 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-<h2>Current Standings</h2>
-<p>1 || Tim || 300 pts</p>
-<p>2 || Matt || 200 pts</p>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Table with Visible Lines</title>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable Table</title>
+    <style>
+        body {
+            font-family: 'Avenir', sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #444;
+            text-align: left;
+        }
+        th {
+            cursor: pointer;
+            background-color: #555;
+        }
+        th:hover {
+            background-color: #666;
+        }
+    </style>
 </head>
 <body>
-
-<table>
-  <tr>
-    <th>Rank</th>
-    <th>Name</th>
-    <th>VPs</th>
-    <th>Points</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Player 1</td>
-    <td>100</td>
-    <td>5000</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Player 2</td>
-    <td>80</td>
-    <td>4500</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Player 3</td>
-    <td>70</td>
-    <td>4000</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Player 4</td>
-    <td>60</td>
-    <td>3500</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Player 5</td>
-    <td>50</td>
-    <td>3000</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Player 6</td>
-    <td>40</td>
-    <td>2500</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Player 7</td>
-    <td>30</td>
-    <td>2000</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Player 8</td>
-    <td>20</td>
-    <td>1500</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Player 9</td>
-    <td>10</td>
-    <td>1000</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Player 10</td>
-    <td>5</td>
-    <td>500</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Player 11</td>
-    <td>3</td>
-    <td>300</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Player 12</td>
-    <td>2</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Player 13</td>
-    <td>1</td>
-    <td>100</td>
-  </tr>
-</table>
-
+    <header>
+        <h1>Standings</h1>
+    </header>
+    <div class="container">
+        <table id="sortableTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Player</th>
+                    <th onclick="sortTable(1)">VP</th>
+                    <th onclick="sortTable(2)">Wins</th>
+                    <th onclick="sortTable(3)">Loss</th>
+                    <th onclick="sortTable(4)">Points For</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Tim</td><td>10</td><td>2</td><td>500</td><td>300</td></tr>
+                <tr><td>EVB</td><td>8</td><td>4</td><td>450</td><td>350</td></tr>
+                <tr><td>Vollmuth</td><td>6</td><td>6</td><td>400</td><td>400</td></tr>
+                <tr><td>Charlie</td><td>4</td><td>8</td><td>350</td><td>450</td></tr>
+                <tr><td>Tyler</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Smithers</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>John</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Josh</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Lindberg</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Anders</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Gorman</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Henry</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        function sortTable(columnIndex) {
+            const table = document.getElementById("sortableTable");
+            const rows = Array.from(table.rows).slice(1);
+            const isNumeric = !isNaN(rows[1].cells[columnIndex].innerText);
+            
+            rows.sort((row1, row2) => {
+                const cell1 = row1.cells[columnIndex].innerText;
+                const cell2 = row2.cells[columnIndex].innerText;
+                
+                if (isNumeric) {
+                    return parseFloat(cell1) - parseFloat(cell2);
+                } else {
+                    return cell1.localeCompare(cell2);
+                }
+            });
+            
+            rows.forEach(row => table.appendChild(row));
+        }
+    </script>
 </body>
 </html>
+
 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 `;
 
