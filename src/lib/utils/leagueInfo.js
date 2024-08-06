@@ -17,13 +17,13 @@ export const homepageText = `
     <style>
         body {
             font-family: 'Avenir', sans-serif;
-            background-color: #bb22ee;
-            color: #003366;
+            background-color: #1177cc;
+            color: #00884;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
+            background-color: #1177cc;
             padding: 20px;
             text-align: center;
         }
