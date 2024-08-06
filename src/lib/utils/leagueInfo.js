@@ -17,8 +17,8 @@ export const homepageText = `
     <style>
         body {
             font-family: 'Avenir', sans-serif;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
+            background-color: #bb22ee;
+            color: #008844;
             margin: 0;
             padding: 0;
         }
@@ -49,7 +49,7 @@ export const homepageText = `
             background-color: #555;
         }
         th:hover {
-            background-color: #666;
+            background-color: #08844;
         }
     </style>
 </head>
