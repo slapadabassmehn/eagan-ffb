@@ -97,13 +97,12 @@
 
 <a href="https://drive.google.com/file/d/1lylnsoLnL9iqk5HD3snH5V467_OwjpBh/view?usp=sharing">Contitution download</a>
 
-<div style={{display: "flex", justifyContent: "center"}}>
+<div style="display: flex; justify-content: center; height: 100vh; width: 100vw;">
     <iframe
-        height="100%"
-        width="100%" 
+        style="height: 100%; width: 100%; border: none;"
         src="https://docs.google.com/document/d/e/2PACX-1vRwxAlRjpgx5zTi4LsTQnNCMjwuJQg_AvEE45Y1d-iUIazg3tzAStaxWwrpu29gtmCuG5jY586GR8jp/pub?embedded=true"
     ></iframe>
-</div>    
+</div>   
 
 <div class="constitution">
     <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
