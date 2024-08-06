@@ -62,7 +62,7 @@ export const homepageText = `
             <thead>
                 <tr>
                     <th onclick="sortTable(0)">Player</th>
-                    <th onclick="sortTable(1)">VP</th>
+                    <th onclick="sortTable(1)"data-sort-default="desc">VP</th>
                     <th onclick="sortTable(2)">Wins</th>
                     <th onclick="sortTable(3)">Loss</th>
                     <th onclick="sortTable(4)">Points For</th>
@@ -85,7 +85,7 @@ export const homepageText = `
         </table>
     </div>
     <script>
-        function sortTable(columnIndex) {
+        function sortTable(columnIndex, ascending = true) {
             const table = document.getElementById("sortableTable");
             const rows = Array.from(table.rows).slice(1);
             const isNumeric = !isNaN(rows[0].cells[columnIndex].innerText);
@@ -94,15 +94,27 @@ export const homepageText = `
                 const cell1 = row1.cells[columnIndex].innerText;
                 const cell2 = row2.cells[columnIndex].innerText;
                 
+                let comparison;
                 if (isNumeric) {
-                    return parseFloat(cell1) - parseFloat(cell2);
+                    comparison = parseFloat(cell1) - parseFloat(cell2);
                 } else {
-                    return cell1.localeCompare(cell2);
+                    comparison = cell1.localeCompare(cell2);
                 }
+                
+                return ascending ? comparison : -comparison;
             });
             
             rows.forEach(row => table.appendChild(row));
         }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const defaultSortHeader = document.querySelector('th[data-sort-default]');
+            if (defaultSortHeader) {
+                const columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
+                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
+                sortTable(columnIndex, sortOrder);
+            }
+        });
     </script>
 </body>
 </html>
