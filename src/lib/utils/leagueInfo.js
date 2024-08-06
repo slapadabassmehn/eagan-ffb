@@ -18,7 +18,7 @@ export const homepageText = `
         body {
             font-family: 'Avenir', sans-serif;
             background-color: #bb22ee;
-            color: #008844;
+            color: #003366;
             margin: 0;
             padding: 0;
         }
@@ -88,7 +88,7 @@ export const homepageText = `
         function sortTable(columnIndex) {
             const table = document.getElementById("sortableTable");
             const rows = Array.from(table.rows).slice(1);
-            const isNumeric = !isNaN(rows[1].cells[columnIndex].innerText);
+            const isNumeric = !isNaN(rows[0].cells[columnIndex].innerText);
             
             rows.sort((row1, row2) => {
                 const cell1 = row1.cells[columnIndex].innerText;
