@@ -69,18 +69,18 @@ export const homepageText = `
                 </tr>
             </thead>
             <tbody>
-                <tr><td>Tim</td><td>10</td><td>2</td><td>500</td><td>300</td></tr>
-                <tr><td>EVB</td><td>8</td><td>4</td><td>450</td><td>350</td></tr>
-                <tr><td>Vollmuth</td><td>6</td><td>6</td><td>400</td><td>400</td></tr>
-                <tr><td>Charlie</td><td>4</td><td>8</td><td>350</td><td>450</td></tr>
-                <tr><td>Tyler</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Smithers</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>John</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Josh</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Lindberg</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Anders</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Gorman</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
-                <tr><td>Henry</td><td>2</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Tim</td><td>90</td><td>2</td><td>500</td><td>300</td></tr>
+                <tr><td>EVB</td><td>4</td><td>4</td><td>450</td><td>350</td></tr>
+                <tr><td>Vollmuth</td><td>655</td><td>6</td><td>400</td><td>400</td></tr>
+                <tr><td>Charlie</td><td>40</td><td>8</td><td>350</td><td>450</td></tr>
+                <tr><td>Tyler</td><td>87</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Smithers</td><td>44</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>John</td><td>12</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Josh</td><td>54</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Lindberg</td><td>27</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Anders</td><td>21</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Gorman</td><td>10</td><td>10</td><td>300</td><td>500</td></tr>
+                <tr><td>Henry</td><td>17</td><td>10</td><td>300</td><td>500</td></tr>
             </tbody>
         </table>
     </div>
