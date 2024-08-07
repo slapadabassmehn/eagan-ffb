@@ -85,7 +85,7 @@ export const homepageText = `
         </table>
     </div>
     <script>
-        function sortTable(columnIndex, descending = true) {
+        function sortTable(columnIndex, ascending = true) {
             const table = document.getElementById("sortableTable");
             const rows = Array.from(table.rows).slice(1);
             const isNumeric = !isNaN(rows[0].cells[columnIndex].innerText);
@@ -111,7 +111,7 @@ export const homepageText = `
             const defaultSortHeader = document.querySelector('th[data-sort-default]');
             if (defaultSortHeader) {
                 const columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
-                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
+                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'asc' ? false : true;
                 sortTable(columnIndex, sortOrder);
             }
         });
