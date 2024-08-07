@@ -105,6 +105,8 @@ export const homepageText = `
             });
             
             rows.forEach(row => table.appendChild(row));
+            localStorage.setItem('sortColumnIndex', columnIndex);
+            localStorage.setItem('sortAscending', ascending);
         }
 
         document.addEventListener("DOMContentLoaded", () => {
