@@ -85,7 +85,7 @@ export const homepageText = `
         </table>
     </div>
     <script>
-        function sortTable(columnIndex, ascending = true) {
+        function sortTable(columnIndex, ascending = false) {
             const table = document.getElementById("sortableTable");
             const rows = Array.from(table.rows).slice(1);
             const isNumeric = !isNaN(rows[0].cells[columnIndex].innerText);
@@ -111,19 +111,10 @@ export const homepageText = `
 
         document.addEventListener("DOMContentLoaded", () => {
             const defaultSortHeader = document.querySelector('th[data-sort-default]');
-            let columnIndex, sortOrder;
-
-    // Check if sorting information exists in localStorage
-            if (localStorage.getItem('sortColumnIndex')) {
-                columnIndex = parseInt(localStorage.getItem('sortColumnIndex'));
-                sortOrder = localStorage.getItem('sortAscending') === 'true';
-            } else if (defaultSortHeader) {
-                columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
-                sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
-    }
-
-    if (columnIndex !== undefined) {
-        sortTable(columnIndex, sortOrder);
+            if (defaultSortHeader) {
+                const columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
+                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
+                sortTable(columnIndex, sortOrder);
             }
         });
     </script>
