@@ -102,6 +102,8 @@ export const homepageText = `
                 }
                 
                 return ascending ? comparison : -comparison;
+                localStorage.setItem('sortColumnIndex', columnIndex);
+                localStorage.setItem('sortAscending', ascending);
             });
             
             rows.forEach(row => table.appendChild(row));
@@ -109,10 +111,19 @@ export const homepageText = `
 
         document.addEventListener("DOMContentLoaded", () => {
             const defaultSortHeader = document.querySelector('th[data-sort-default]');
-            if (defaultSortHeader) {
-                const columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
-                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
-                sortTable(columnIndex, sortOrder);
+            let columnIndex, sortOrder;
+
+    // Check if sorting information exists in localStorage
+            if (localStorage.getItem('sortColumnIndex')) {
+                columnIndex = parseInt(localStorage.getItem('sortColumnIndex'));
+                sortOrder = localStorage.getItem('sortAscending') === 'true';
+            } else if (defaultSortHeader) {
+                columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
+                sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
+    }
+
+    if (columnIndex !== undefined) {
+        sortTable(columnIndex, sortOrder);
             }
         });
     </script>
