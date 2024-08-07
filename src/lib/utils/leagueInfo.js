@@ -85,7 +85,7 @@ export const homepageText = `
         </table>
     </div>
     <script>
-        function sortTable(columnIndex, ascending = true) {
+        function sortTable(columnIndex, descending = true) {
             const table = document.getElementById("sortableTable");
             const rows = Array.from(table.rows).slice(1);
             const isNumeric = !isNaN(rows[0].cells[columnIndex].innerText);
@@ -105,8 +105,6 @@ export const homepageText = `
             });
             
             rows.forEach(row => table.appendChild(row));
-            localStorage.setItem('sortColumnIndex', columnIndex);
-            localStorage.setItem('sortAscending', ascending);
         }
 
         document.addEventListener("DOMContentLoaded", () => {
