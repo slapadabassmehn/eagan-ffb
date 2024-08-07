@@ -111,7 +111,7 @@ export const homepageText = `
             const defaultSortHeader = document.querySelector('th[data-sort-default]');
             if (defaultSortHeader) {
                 const columnIndex = Array.from(defaultSortHeader.parentNode.children).indexOf(defaultSortHeader);
-                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'asc' ? false : true;
+                const sortOrder = defaultSortHeader.getAttribute('data-sort-default') === 'desc' ? false : true;
                 sortTable(columnIndex, sortOrder);
             }
         });
