@@ -58,7 +58,9 @@ export const homepageText = `
     <header>
         <h1>Standings</h1>
     </header>
-    <a href="https://sites.google.com/view/effb-sup/standings">Official Standings</a>
+    <p> Every effort will be made to keep the below up to date.
+        However,<a href="https://sites.google.com/view/effb-sup/standings">this</a>is the official standings.
+    </p>
     <div class="container">
         <table id="sortableTable">
             <thead>

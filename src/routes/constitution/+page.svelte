@@ -95,8 +95,6 @@
     }
 </style>
 
-<a href="https://drive.google.com/file/d/1lylnsoLnL9iqk5HD3snH5V467_OwjpBh/view?usp=sharing">Contitution download</a>
-
 <div style="display: flex; justify-content: center; height: 100vh; width: 100vw;">
     <iframe
         style="height: 100%; width: 100%; border: none;"
