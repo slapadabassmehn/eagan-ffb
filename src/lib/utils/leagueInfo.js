@@ -58,7 +58,7 @@ export const homepageText = `
     <header>
         <h1>Standings</h1>
     </header>
-    <p> stanings here: https://sites.google.com/view/effb-sup/standings </p>
+    <a href="https://sites.google.com/view/effb-sup/standings">Official Standings</a>
     <div class="container">
         <table id="sortableTable">
             <thead>
