@@ -58,6 +58,7 @@ export const homepageText = `
     <header>
         <h1>Standings</h1>
     </header>
+    <p> stanings here: https://sites.google.com/view/effb-sup/standings </p>
     <div class="container">
         <table id="sortableTable">
             <thead>
