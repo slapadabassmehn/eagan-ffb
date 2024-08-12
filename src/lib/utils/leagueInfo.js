@@ -60,7 +60,7 @@ export const homepageText = `
     </header>
     <div style="text-align: center;">
         <p> Every effor will be made to keep the below standings up to date.
-            However, <a href="https://sites.google.com/view/effb-sup/standings">|||THIS|||</a> is the official standings.
+            However, <a href="https://sites.google.com/view/effb-sup/standings">here</a> are the official standings.
         </p>
     </div>
 
