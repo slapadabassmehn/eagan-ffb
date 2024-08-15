@@ -146,7 +146,8 @@ export const managers = [
       "name": "Smithers",
       // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Rosemount", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Yes hi hello, there will be a new paragraph follow THIS\n\n
+              balls on a new line here!",
       "photo": "/managers/smithers.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
