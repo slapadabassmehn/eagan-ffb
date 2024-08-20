@@ -25,8 +25,10 @@
         max-width: 500px;
         margin: 80px auto;
     }
+    document.getElementById('bio').innerHTML = manager.bio;
 </style>
 
+<div id="bio"></div>
 <div class="main">
     {#await leagueTeamManagersData}
         <!-- promise is pending -->
