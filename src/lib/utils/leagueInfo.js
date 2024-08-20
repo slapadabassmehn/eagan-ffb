@@ -146,7 +146,7 @@ export const managers = [
       "name": "Smithers",
       // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Rosemount", // (optional)
-      "bio": "Yes hi hello, there will be a new.<br><br> fkdsjflkdsjflkdsjfl skfjdlskjflksdfj klsdjflkdsjfklsdjf <br>paragraph follow THIS\n\nballs on a new line here!",
+      "bio": "The last of the OGs. Between himself and John, he is what is left of the first league established in 2008.<br>Breaking into the scene with a #1 regular season finish, he finally captured his 1st Schwanz in 2021, but faltered at his attempt to achieve the Lindberg retirement portfolio (LRP (™)) the following year. Attempting to recapture greatness, the injury bug derailed his season resulting in a complete Gorman-esque firesale to begin the 2024 season.<br><br>The Commissioner is an avid trader, if you haven’t received a trade from him, you probably aren't worthy… of anything. The biggest feather in his cap is probably <b>86.98% line up accuracy score</b>, good for first in the league and something he can strive for while rebuilding.",
       "photo": "/managers/smithers.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
