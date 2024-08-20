@@ -23,7 +23,7 @@
         display: block;
         width: 85%;
         max-width: 500px;
-        margin: 80px auto;
+        /* margin: 80px auto;*/
     }
 </style>
 
