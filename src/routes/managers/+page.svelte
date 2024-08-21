@@ -18,7 +18,6 @@
 	.main {
 		position: relative;
 		z-index: 1;
-        margin-left: 25px;
 	}
     .loading {
         display: block;
