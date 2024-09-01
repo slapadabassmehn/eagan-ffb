@@ -95,7 +95,7 @@
         background-color: var(--QB);
     }
     .cheap {
-        background-color: var(--Cheap);
+        background-color: var(--cheap);
     }
 
     .WR {
