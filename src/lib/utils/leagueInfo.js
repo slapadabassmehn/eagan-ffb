@@ -7,7 +7,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-<p>Established in 2009, we were ahead of the curve, and transitioned to dynasty in 2019. Since then, we have had a core group of active managers, passionate about the Consitution, competing for Lindberg's Retirement Portfolio (LRP™), and always, always, always trying to avoid the Load of Shame (LoS™). </p>
+<p>Established in 2008, we were ahead of the curve, and transitioned to dynasty in 2019. Since then, we have had a core group of active managers, passionate about the Consitution, competing for Lindberg's Retirement Portfolio (LRP™), and always, always, always trying to avoid the Load of Shame (LoS™). </p>
 
 <!DOCTYPE html>
 <html lang="en">
