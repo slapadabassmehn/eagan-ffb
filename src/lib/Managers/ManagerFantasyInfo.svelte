@@ -94,9 +94,6 @@
     .QB {
         background-color: var(--QB);
     }
-    .cheap {
-        background-color: var(--cheap);
-    }
 
     .WR {
         background-color: var(--WR);
@@ -111,6 +108,9 @@
     }
 
     .Picks {
+        background: #73b647;
+    }
+    .Cheap {
         background: #73b647;
     }
     .K {
