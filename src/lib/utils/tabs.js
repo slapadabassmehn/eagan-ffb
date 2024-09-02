@@ -7,9 +7,9 @@ export const tabs = [
         dest: '/',
     },
     {
-        icon: 'sports',
-        label: 'Matchups',
-        dest: '/matchups',
+        icon: 'history_edu',
+        label: 'Constitution',
+        dest: '/constitution',
     },
     {
         icon: 'swap_horiz',
@@ -74,8 +74,8 @@ export const tabs = [
         ]
     },
     {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
+        icon: 'sports',
+        label: 'Matchups',
+        dest: '/matchups',
     },
 ];

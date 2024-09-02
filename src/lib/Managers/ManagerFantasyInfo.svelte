@@ -110,6 +110,9 @@
     .Picks {
         background: #73b647;
     }
+    .Cheap {
+        background: #73b647;
+    }
     .K {
         background-color: var(--K);
     }
