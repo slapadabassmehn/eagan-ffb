@@ -7,7 +7,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-<p>Established with your mom </p>
+<p>Established in 2009, we were ahead of the curve, and transitioned to dynasty in 2019. Since then, we have had a core group of active managers, passionate about the Consitution, competing for Lindberg's Retirement Portfolio (LRP™), and always, always, always trying to avoid the Load of Shame (LoS™). </p>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -152,14 +152,14 @@ export const managers = [
       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Tim", // Can be anything (usually your rival's name)
+        link: 9, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/tim.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 4984, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Trade his way to relevance, with a sprinkle of waiver success",
+      "philosophy": "Trade his way to relevance, with a sprinkle of waiver success.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -268,7 +268,7 @@ export const managers = [
         },
         "favoritePlayer": 6943, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         "valuePosition": "Picks", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         "philosophy": "Get performance anxiety, blame it on his team. Slowly rebuild a behemoth.",
         "tradingScale": 10, // 1 - 10
         "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
@@ -278,7 +278,7 @@ export const managers = [
         "name": "Vollmuth",
         // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
         "location": "Seattle", // (optional)
-        "bio": "Vollmuth, our resident Chief Justice of the Constitution, 2023 champion, Agent of Chaos, and second most winningest team in the league will be entering his tenth season in the EFFB, perhaps it will result in the claim to the empire pot aka the LRP. While he suffered quite a bit in re-draft, dynasty has been his jam. Missing the playoffs only once (on a technicality that he honorably pointed out), he finally earned his stripes in 2023.<br><br>Without digging to deep in too deep, it seems Vollmuth has built his team through trading. His drafts have been, sub-par, even with the snag of Puka. He has captured, without the asterisks of trade rape: Pacheco, Nico Collins, Michael Pittman, Amari Cooper, Joe Mixon, Deebo Samuel, DeAndre Hopkins; with the former few having career years peaking during the playoffs to jetison him to his first Schwanz.<br><br>Vollmuth also is the only manager to break the 200 pt on the week barrier, and is 4th on the all time highest points scored ina  season. My god, he also holds 4 of teh 10 biggest blowouts as well. He also has a top tier manager IQ with a nice round 84%. As much as I want to slander the champ and chalk all of his success up to an easy schedule, these last two points show that he may occasionally get the worst of some teams, but with the brilliance he shows in his weekly starters, he would most likely win all of those games anyways. Savvy picks in his chaos specialty   (defense and kickers) most likely lend their hand in his success, but that success has been earned, not given.",
+        "bio": "Vollmuth, our resident Chief Justice of the Constitution, 2023 champion, Agent of Chaos, and second most winningest team in the league will be entering his tenth season in the EFFB, perhaps it will result in the claim to the empire pot aka the LRP. While he suffered quite a bit in re-draft, dynasty has been his jam. Missing the playoffs only once (on a technicality that he honorably pointed out), he finally earned his stripes in 2023.<br><br>Without digging to deep in too deep, it seems Vollmuth has built his team through trading. His drafts have been, sub-par, even with the snag of Puka. He has captured, without the asterisks of trade rape: Pacheco, Nico Collins, Michael Pittman, Amari Cooper, Joe Mixon, Deebo Samuel, DeAndre Hopkins; with the former few having career years peaking during the playoffs to jetison him to his first Schwanz.<br><br>Vollmuth also is the <b>only manager to break the 200 pt on the week barrier</b>, and is 4th on the all time highest points scored in a season. My god, he also holds 4 of teh 10 biggest blowouts as well. He also has a top tier manager IQ with a nice round 84%. As much as I want to slander the champ and chalk all of his success up to an easy schedule, these last two points show that he may occasionally get the worst of some teams, but with the brilliance he shows in his weekly starters, he would most likely win all of those games anyways. Savvy picks in his chaos specialty   (defense and kickers) most likely lend their hand in his success, but that success has been earned, not given.",
         "photo": "/managers/vollmuth.jpg", // square ratio recommended (no larger than 500x500)
         "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
         "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -334,7 +334,7 @@ export const managers = [
         },
         "favoritePlayer": 8146, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-        "rookieOrVets": "Dynasty", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+        "rookieOrVets": "Both", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         "philosophy": "Calculated moves, researched draft picks, ride his WRs",
         "tradingScale": 8, // 1 - 10
         "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
@@ -355,9 +355,9 @@ export const managers = [
           image: "/managers/gorman.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         "favoritePlayer": 7543, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        "valuePosition": "Missionary", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        "philosophy": "Draft well, trade ok, manager poorly, fall into competing.",
+        "philosophy": "Draft well, trade ok, manage poorly, fall into competing.",
         "tradingScale": 6, // 1 - 10
         "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       },
@@ -370,7 +370,7 @@ export const managers = [
         "photo": "/managers/henry.jpg", // square ratio recommended (no larger than 500x500)
         "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
         "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+        "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         "rival": {
           name: "EVB", // Can be anything (usually your rival's name)
           link: 13, // manager array number within this array, or null to link back to all managers page
@@ -379,7 +379,7 @@ export const managers = [
         "favoritePlayer": 11560, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        "philosophy": "Get his guys, clean up 5 years of mess",
+        "philosophy": "Get his guys, clean up 5 years of mess.",
         "tradingScale": 5, // 1 - 10
         "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       },
@@ -388,7 +388,7 @@ export const managers = [
         "name": "EVB",
         // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
         "location": "Seattle", // (optional)
-        "bio": "Gracing our presence in 2011, EVB became the second most winningest team during our redraft days, he promptly reverted all of his hard work to receive the coveted Load in our inaugural season. It took three years of great draft and even more ballsy trading to get him into serious contention for the Schwanz. As with most successful teams, he’s hit on most of his first rounders, with only Henry Ruggs speeding off into bust land. He boasts a #6 ranked manager IQ which may be the reason he just hasn’t hit the peak yet – we’ll see coming into his third year actually competing.<br><br>Sniffing success in 2021, and a decent draft coming into the 2022 season, EVB was able to parlay his assets to achieve arguably the QB1 in Patrick Mahomes, and not so much arguably the RB1 in Christian McCaffery. He then has been able to pair that with Bijan and JTT, creating one of the most powerful RB rooms in the league – we’re talking three of the top five RBs. To put that in perspective, John has the second best RB room, and he’s sitting with BReece, Rachaad White, and Javonte Williams: RB2, RB15, and RB23, respectively.  He’s a bit thin and aging at WR position, but riding Mike Evans and DeAndre Hopkins into the dirt isn’t an awful strategy if the team is buoyed by three stallions. But if he truly wants to compete, strengthening his WR is a good place to start.<br><br> 2024 is ripe for the picking with the changing of the guard in full swing, leaving an opportunity for a mega team to come in and take what is rightfully Lindbergs. EVB has the future assets to improve his WR corp, I would do so with haste before the stock market crashes.",
+        "bio": "Gracing our presence in 2011, EVB became the second most winningest team during our redraft days, he promptly reverted all of his hard work to receive the coveted Load in our inaugural season. It took three years of great draft and even more ballsy trading to get him into serious contention for the Schwanz. As with most successful teams, he’s hit on most of his first rounders, with only Henry Ruggs speeding off into bust land. He boasts a #6 ranked manager IQ which may be the reason he just hasn’t hit the peak yet – we’ll see coming into his third year actually competing.<br><br>Sniffing success in 2021, and a decent draft coming into the 2022 season, EVB was able to parlay his assets to achieve arguably the QB1 in Patrick Mahomes, and not so much arguably the RB1 in Christian McCaffery. He then has been able to pair that with Bijan and JTT, creating one of the most powerful RB rooms in the league – we’re talking three of the top five RBs. To put that in perspective, John has the second best RB room, and he’s sitting with Breece, Rachaad White, and Javonte Williams: RB2, RB15, and RB23, respectively.  He’s a bit thin and aging at WR position, but riding Mike Evans and DeAndre Hopkins into the dirt isn’t an awful strategy if the team is buoyed by three stallions. But if he truly wants to compete, strengthening his WR is a good place to start.<br><br> 2024 is ripe for the picking with the changing of the guard in full swing, leaving an opportunity for a mega team to come in and take what is rightfully Lindbergs. EVB has the future assets to improve his WR corp, I would do so with haste before the stock market crashes.",
         "photo": "/managers/evb.jpg", // square ratio recommended (no larger than 500x500)
         "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
         "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
