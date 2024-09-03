@@ -98,7 +98,7 @@
 <div style="display: flex; justify-content: center; height: 100vh; width: 100vw;">
     <iframe
         style="height: 100%; width: 100%; border: none;"
-        src="https://docs.google.com/document/d/1ll_kNikPj2UmF03xzNDkzQz21iTHepdEVRgltxhSEMQ/pub/pub?embedded=true"
+        src="https://docs.google.com/document/d/1ll_kNikPj2UmF03xzNDkzQz21iTHepdEVRgltxhSEMQ/pub?embedded=true"
     ></iframe>
 </div>   
 
