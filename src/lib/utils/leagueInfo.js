@@ -76,18 +76,18 @@ export const homepageText = `
                 </tr>
             </thead>
             <tbody>
-                <tr><td>John</td><td>4</td><td>248.14</td><td>1</td><td>1</td></tr>
-                <tr><td>Tim</td><td>5</td><td>251.63</td><td>1</td><td>1</td></tr>
-                <tr><td>Gorman</td><td>7</td><td>244.89</td><td>2</td><td>0</td></tr>
-                <tr><td>Henry</td><td>4</td><td>204.13</td><td>1</td><td>1</td></tr>
-                <tr><td>Tyler</td><td>4</td><td>228.12</td><td>1</td><td>1</td></tr>
-                <tr><td>Vollmuth</td><td>7</td><td>223.12</td><td>2</td><td>0</td></tr>
-                <tr><td>Josh</td><td>5</td><td>244.05</td><td>1</td><td>1</td></tr>
-                <tr><td>Smithers</td><td>1</td><td>182.17</td><td>0</td><td>2</td></tr>
-                <tr><td>Lindberg</td><td>4</td><td>236.27</td><td>1</td><td>1</td></tr>
-                <tr><td>EVB</td><td>0</td><td>192.35</td><td>0</td><td>2</td></tr>
-                <tr><td>Charlie</td><td>4</td><td>241.13</td><td>1</td><td>1</td></tr>
-                <tr><td>Anders</td><td>3</td><td>182.48</td><td>1</td><td>1</td></tr>
+                <tr><td>John</td><td>8</td><td>365.49</td><td>2</td><td>1</td></tr>
+                <tr><td>Tim</td><td>9</td><td>397.46</td><td>2</td><td>1</td></tr>
+                <tr><td>Gorman</td><td>7</td><td>333.51</td><td>2</td><td>1</td></tr>
+                <tr><td>Henry</td><td>8</td><td>345.61</td><td>2</td><td>1</td></tr>
+                <tr><td>Tyler</td><td>5</td><td>337.95</td><td>1</td><td>2</td></tr>
+                <tr><td>Vollmuth</td><td>10</td><td>336.27</td><td>3</td><td>0</td></tr>
+                <tr><td>Josh</td><td>9</td><td>375.61</td><td>2</td><td>1</td></tr>
+                <tr><td>Smithers</td><td>1</td><td>253.74</td><td>0</td><td>3</td></tr>
+                <tr><td>Lindberg</td><td>5</td><td>346.73</td><td>1</td><td>2</td></tr>
+                <tr><td>EVB</td><td>3</td><td>300.95</td><td>1</td><td>2</td></tr>
+                <tr><td>Charlie</td><td>4</td><td>349.31</td><td>1</td><td>2</td></tr>
+                <tr><td>Anders</td><td>3</td><td>284.14</td><td>1</td><td>2</td></tr>
               </tbody>
         </table>
     </div>
