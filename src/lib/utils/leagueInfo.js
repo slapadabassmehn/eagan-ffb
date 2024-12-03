@@ -88,7 +88,7 @@ export const homepageText = `
                 <tr><td>Henry</td><td>19</td><td>1253.62</td><td>6</td><td>7</td></tr>
                 <tr><td>Anders</td><td>12</td><td>1222.76</td><td>3</td><td>10</td></tr>
                 <tr><td>Smithers</td><td>10</td><td>1148.28</td><td>3</td><td>10</td></tr>
-              </tbody>
+            </tbody>
         </table>
     </div>
     <script>
