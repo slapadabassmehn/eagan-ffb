@@ -81,14 +81,14 @@ export const homepageText = `
                 <tr><td>Vollmuth</td><td>32</td><td>1426.06</td><td>8</td><td>4</td></tr>
                 <tr><td>EVB</td><td>28</td><td>1402.77</td><td>7</td><td>5</td></tr>
                 <tr><td>Tim</td><td>27</td><td>1407.15</td><td>7</td><td>5</td></tr>
+                <tr><td>Josh</td><td>27</td><td>1396.24</td><td>6</td><td>6</td></tr>
                 <tr><td>Charlie</td><td>26</td><td>1421.26</td><td>7</td><td>5</td></tr>
-                <tr><td>Josh</td><td>26</td><td>1396.24</td><td>6</td><td>6</td></tr>
                 <tr><td>Gorman</td><td>22</td><td>1263.9</td><td>6</td><td>6</td></tr>
                 <tr><td>Lindberg</td><td>18</td><td>1294.41</td><td>4</td><td>8</td></tr>
                 <tr><td>Henry</td><td>16</td><td>1144.36</td><td>5</td><td>7</td></tr>
                 <tr><td>Anders</td><td>12</td><td>1137.23</td><td>3</td><td>9</td></tr>
                 <tr><td>Smithers</td><td>8</td><td>1054.16</td><td>2</td><td>10</td></tr>
-              </tbody>
+                              </tbody>
         </table>
     </div>
     <script>
