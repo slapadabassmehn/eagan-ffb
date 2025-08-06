@@ -86,7 +86,7 @@ export const homepageText = `
                 <tr><td>Gorman</td><td>22</td><td>1435.42</td><td>6</td><td>8</td></tr>
                 <tr><td>Henry</td><td>21</td><td>1343.88</td><td>7</td><td>7</td></tr>
                 <tr><td>Lindberg</td><td>20</td><td>1537.14</td><td>4</td><td>10</td></tr>
-                <tr><td>Anders</td><td>12</td><td>1280.42</td><td>3</td><td>11</td></tr>
+                <tr><td>Newman</td><td>12</td><td>1280.42</td><td>3</td><td>11</td></tr>
                 <tr><td>Smithers</td><td>10</td><td>1228.79</td><td>3</td><td>11</td></tr>
             </tbody>
         </table>
@@ -164,25 +164,25 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "managerID": "455471147224395776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Anders",
-      // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "managerID": "513143086936379392",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Alex aka Newman",
+      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Eagan", // (optional)
-      "bio": "Anders has been a dynasty OG, but since the first year, he’s struggled to field a competitive team. He dug himself into a hole with the initial draft, with his QB1 retiring at the ripe young age of 29 – probably sensing the abysmal team managerial prowess and dipping before four years of suffering. Having to pivot from that mess, probably explains the four consecutive years of LoS, reaching its pinnacle of receiving the load in 2023. But now, times have changed. With a pair of top ten WRs in ASRB and MHJ, the only thing that should derail him from at least avoiding the LoS for the considerable future would be injuries and absurdly poor management.<br><br>He has an absurdly low trade rate, with less than two trades per year and middle of the pack in terms of waiver wire. A little more commitment to a rebuild or win now might have assisted in a faster turn around, but as things stand, it’s looking a little brighter for his future. He has a reasonably decent hit rate with his drafts: Anthony Richardson, JOsh Downs (bro just can’t get enough of Indy), MHJ, ASRB. Going to show you that you only need a small hit rate to get back to a competitive state – even if it takes four years.",
+      "bio": "A stalwart and champion from the triple-A Rochester league, Alex received the call to “The Show” when Anders gracefully bowed out of any more suffering, leaving Alex with the 1.01, and a decision to rebuild or attempt to be the first two design champion. He chose the former. Upon breaking into the league, he promptly started the rebuild (which Anders should have done ages ago), acquiring a slew of ‘26 and ‘27 picks while maintaining the 1.01.<br><br> Coming in with a solid commitment to being active and a plan to become the first orphan team to win the Schwanz, we look forward to his renegging of trades, and building a solid future for someone to burn down.",
       "photo": "/managers/anders.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Lindberg", // Can be anything (usually your rival's name)
+        name: "Smithers and  John", // Can be anything (usually your rival's name)
         link: 4, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/lindberg.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/john.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1111, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 6904, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Build without trades, hit some picks, rinse and repeat.",
-      "tradingScale": 2, // 1 - 10
+      "tradingScale": 9, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
