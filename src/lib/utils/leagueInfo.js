@@ -169,7 +169,7 @@ export const managers = [
       "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Eagan", // (optional)
       "bio": "A stalwart and champion from the triple-A Rochester league, Alex received the call to “The Show” when Anders gracefully bowed out of any more suffering, leaving Alex with the 1.01, and a decision to rebuild or attempt to be the first two design champion. He chose the former. Upon breaking into the league, he promptly started the rebuild (which Anders should have done ages ago), acquiring a slew of ‘26 and ‘27 picks while maintaining the 1.01.<br><br> Coming in with a solid commitment to being active and a plan to become the first orphan team to win the Schwanz, we look forward to his renegging of trades, and building a solid future for someone to burn down.",
-      "photo": "/managers/anders.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/newman.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
