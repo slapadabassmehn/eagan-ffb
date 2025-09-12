@@ -76,18 +76,18 @@ export const homepageText = `
                 </tr>
             </thead>
             <tbody>
-                <tr><td>Tyler</td><td>44</td><td>1964.49</td><td>10</td><td>4</td></tr>
-                <tr><td>John</td><td>39</td><td>1758.97</td><td>9</td><td>5</td></tr>
-                <tr><td>EVB</td><td>36</td><td>1689.52</td><td>9</td><td>5</td></tr>
-                <tr><td>Vollmuth</td><td>36</td><td>1671.89</td><td>9</td><td>5</td></tr>
-                <tr><td>Tim</td><td>34</td><td>1685.7</td><td>9</td><td>5</td></tr>
-                <tr><td>Charlie</td><td>33</td><td>1706.42</td><td>9</td><td>5</td></tr>
-                <tr><td>Josh</td><td>29</td><td>1613.33</td><td>6</td><td>8</td></tr>
-                <tr><td>Gorman</td><td>22</td><td>1435.42</td><td>6</td><td>8</td></tr>
-                <tr><td>Henry</td><td>21</td><td>1343.88</td><td>7</td><td>7</td></tr>
-                <tr><td>Lindberg</td><td>20</td><td>1537.14</td><td>4</td><td>10</td></tr>
-                <tr><td>Newman</td><td>12</td><td>1280.42</td><td>3</td><td>11</td></tr>
-                <tr><td>Smithers</td><td>10</td><td>1228.79</td><td>3</td><td>11</td></tr>
+                <tr><td>Tim</td><td>4</td><td>147.13</td><td>1</td><td>0</td></tr>
+                <tr><td>EVB</td><td>0</td><td>99.66</td><td>0</td><td>1</td></tr>
+                <tr><td>Vollmuth</td><td>3</td><td>105.94</td><td>1</td><td>0</td></tr>
+                <tr><td>Charlie</td><td>0</td><td>97.32</td><td>0</td><td>1</td></tr>
+                <tr><td>Tyler</td><td>3</td><td>121.79</td><td>1</td><td>0</td></tr>
+                <tr><td>Smithers</td><td>1</td><td>101.29</td><td>0</td><td>1</td></tr>
+                <tr><td>John</td><td>4</td><td>150.63</td><td>1</td><td>0</td></tr>
+                <tr><td>Josh</td><td>1</td><td>115.18</td><td>0</td><td>1</td></tr>
+                <tr><td>Lindberg</td><td>0</td><td>100.98</td><td>0</td><td>1</td></tr>
+                <tr><td>Anders</td><td>0</td><td>77.21</td><td>0</td><td>1</td></tr>
+                <tr><td>Gorman</td><td>4</td><td>147.13</td><td>1</td><td>0</td></tr>
+                <tr><td>Henry</td><td>4</td><td>135.24</td><td>1</td><td>0</td></tr>
             </tbody>
         </table>
     </div>
