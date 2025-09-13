@@ -26,6 +26,11 @@ export const tabs = [
         key: 'blog',
     },
     {
+    icon: 'history_edu',
+    label: 'Constitution',
+    dest: '/constitution',
+    },
+    {
         icon: 'view_comfy',
         label: 'League Info',
         nest: true,
