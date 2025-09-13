@@ -78,10 +78,4 @@ export const tabs = [
             },
         ]
     },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
-        key: 'resources',
-    },
 ];
