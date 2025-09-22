@@ -26,6 +26,11 @@ export const tabs = [
         key: 'blog',
     },
     {
+    icon: 'history_edu',
+    label: 'Constitution',
+    dest: '/constitution',
+    },
+    {
         icon: 'view_comfy',
         label: 'League Info',
         nest: true,
@@ -77,11 +82,5 @@ export const tabs = [
                 dest: `https://sleeper.app/leagues/${leagueID}`,
             },
         ]
-    },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
-        key: 'resources',
     },
 ];
