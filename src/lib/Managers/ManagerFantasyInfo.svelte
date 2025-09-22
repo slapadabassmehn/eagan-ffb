@@ -110,9 +110,6 @@
     .Picks {
         background: #73b647;
     }
-    .Cheap {
-        background: #73b647;
-    }
     .K {
         background-color: var(--K);
     }
@@ -240,7 +237,7 @@
         </div>
     {/if}
     <!-- Rival -->
-    <div class="infoSlot infoRival" on:click={() => changeManager(viewManager.rival.link)}>
+    <div class="infoSlot infoRival" onclick={() => changeManager(viewManager.rival.link)}>
         <div class="infoLabel">
             Rival
         </div>
