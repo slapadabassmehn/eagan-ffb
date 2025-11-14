@@ -76,18 +76,18 @@ export const homepageText = `
                 </tr>
             </thead>
             <tbody>
-                <tr><td>Tyler</td><td>32</td><td>1101.1</td><td>7</td><td>2</td></tr>
-                <tr><td>EVB</td><td>24</td><td>1097.98</td><td>6</td><td>3</td></tr>
-                <tr><td>Gorman</td><td>24</td><td>1056.2</td><td>6</td><td>3</td></tr>
-                <tr><td>Vollmuth</td><td>23</td><td>987.08</td><td>6</td><td>3</td></tr>
-                <tr><td>John</td><td>22</td><td>1025.32</td><td>6</td><td>3</td></tr>
-                <tr><td>Charlie</td><td>20</td><td>1016.16</td><td>4</td><td>4</td></tr>
-                <tr><td>Lindberg</td><td>17</td><td>963.06</td><td>3</td><td>6</td></tr>
-                <tr><td>Smithers</td><td>15</td><td>929.9</td><td>4</td><td>5</td></tr>
-                <tr><td>Tim</td><td>15</td><td>834.46</td><td>4</td><td>5</td></tr>
-                <tr><td>Newman</td><td>11</td><td>678.6</td><td>4</td><td>5</td></tr>
-                <tr><td>Henry</td><td>6</td><td>647.28</td><td>2</td><td>7</td></tr>
-                <tr><td>Josh</td><td>5</td><td>785.06</td><td>1</td><td>7</td></tr>
+                <tr><td>Tyler</td><td>36</td><td>1219.84</td><td>8</td><td>2</td></tr>
+                <tr><td>EVB</td><td>28</td><td>1239.8</td><td>7</td><td>3</td></tr>
+                <tr><td>Gorman</td><td>26</td><td>1143.82</td><td>7</td><td>3</td></tr>
+                <tr><td>John</td><td>26</td><td>1137.56</td><td>7</td><td>3</td></tr>
+                <tr><td>Vollmuth</td><td>26</td><td>1089.08</td><td>7</td><td>3</td></tr>
+                <tr><td>Charlie</td><td>21</td><td>1115.3</td><td>4</td><td>5</td></tr>
+                <tr><td>Lindberg</td><td>21</td><td>1099.06</td><td>4</td><td>6</td></tr>
+                <tr><td>Tim</td><td>16</td><td>945.58</td><td>4</td><td>6</td></tr>
+                <tr><td>Smithers</td><td>15</td><td>1014.6</td><td>4</td><td>6</td></tr>
+                <tr><td>Newman</td><td>11</td><td>770.58</td><td>4</td><td>6</td></tr>
+                <tr><td>Josh</td><td>6</td><td>877.78</td><td>1</td><td>8</td></tr>
+                <tr><td>Henry</td><td>6</td><td>724.44</td><td>2</td><td>8</td></tr>
             </tbody>
         </table>
     </div>
